@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+body{
+   // background-image:url('im3.jpeg');
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.container {
+    //font-size: 14px;
+}
+#app{
+    font-size: large;
+}
+.navbar-brand{
+    font-size:x-large;
+}
+footer
+{
+    background: #fff;
+    margin-top: auto;
+}
+
+.home{
+    font-size: large;
+    background: rgb(255, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Times New Roman;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+.about{
+    font-size: large;
+    background: rgb(255, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Times New Roman;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
