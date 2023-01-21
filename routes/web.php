@@ -23,11 +23,12 @@ use app\Http\controller\PostsController;
 // });
 
 Route::resource('posts', 'App\Http\Controllers\PostsController');
+
 Route::get('/', 'App\Http\Controllers\PagesController@index');
 Route::get('/about', 'App\Http\Controllers\PagesController@about');
 Route::get('/services', 'App\Http\Controllers\PagesController@services');
 Route::post('/posts','App\Http\Controllers\PostsController@update');
-
+Route::get('/admin', 'App\Http\Controllers\AdminController@admin');
 
 
 Auth::routes();

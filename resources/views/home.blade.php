@@ -17,7 +17,7 @@
                          <a href="/posts/create" class="btn btn-primary">Create a Post</a>
                          <h3>Your Blogs</h3>
 
-                         @if(is_countable($posts) && count($posts))> 0)
+                         @if(is_countable($posts) && count($posts)> 0)
                             <table class="table table-striped ">
                                      <tr>
                                          <th>Title</th>
